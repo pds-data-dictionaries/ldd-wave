@@ -13,4 +13,4 @@ The build process insures compatiblity of the LDD with the core information mode
 This LDD has been built for the following versions of the PDS4 information model.
 
 - [1.4.0.0](build/1.4.0.0)
-	- src: [v1.0.0.0-b1.4.0.0](/releases/tag/v1.0.0.0-b1.4.0.0)
+	- src: [v1.0.0.0-b1.4.0.0](https://github.com/nasa-pds/ldd-wave/releases/tag/v1.0.0.0-b1.4.0.0)
