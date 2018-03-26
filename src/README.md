@@ -11,7 +11,7 @@ The Axis_Values class describes the values which are associated with the element
 
 Attribute    | Min Occur. | Max Occur.
 ------------ | ---------- | -----------
-[Local_Internal_Reference](#Local_Internal_Reference)  | 1 | 1
+[Local_Internal_Reference](#local_internal_reference)  | 1 | 1
 [axis_number](#axis_number)  | 1          | 1
 
 ### Face_Values
@@ -19,7 +19,7 @@ The Face_Values class describes the values which are associated with the element
 
 Attribute    | Min Occur. | Max Occur.
 ------------ | ---------- | -----------
-[Local_Internal_Reference](#Local_Internal_Reference)  | 1 | 1
+[Local_Internal_Reference](#local_internal_reference)  | 1 | 1
 [Face_Plane](#Face_Plane)   | 1          | 1
 
 ### Face_Plane
@@ -46,16 +46,16 @@ Attribute    | Min Occur. | Max Occur.
 pds.name     | 1          | 1
 pds.local_identifier | 0  | 1
 pds.description | 1       | 1
-[Primary_Values](#Primary_Values) | 1        | 1
-[Axis_Values](#Axis_Values)  | 0          | *
-[Face_Values](#Face_Values)  | 0          | *
+[Primary_Values](#primary_values) | 1        | 1
+[Axis_Values](#axis_values)  | 0          | *
+[Face_Values](#face_values)  | 0          | *
 
 ### Primary_Values
 The Primary_Values class describes the values which are the primary observation data array.
 
 Attribute    | Min Occur. | Max Occur.
 ------------ | ---------- | -----------
-[Local_Internal_Reference](#Local_Internal_Reference) | 1 | 1
+[Local_Internal_Reference](#local_internal_reference) | 1 | 1
 
 ## Attributes
 
