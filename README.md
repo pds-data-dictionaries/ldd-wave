@@ -3,7 +3,9 @@
 The Wave dictionary contains classes that describe the composition of multidimensional
 wave data consisting of Array (and Array subclass) data objects.
 
-# Build
+[LDD Documentation](src)
+
+# Builds
 
 A Local Data Dictionary (LDD) is built for each version of the [PDS4 Information Model](https://pds.nasa.gov/pds4/doc/im/).
 The build process insures compatiblity of the LDD with the core information model.
