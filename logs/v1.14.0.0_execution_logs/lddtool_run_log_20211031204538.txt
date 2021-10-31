@@ -1,12 +1,14 @@
 
 >>  INFO LDDTOOL Version: 13.1.0
->>  INFO IM Version Id: 1.15.0.0
+>>  INFO IM Version Id: 1.14.0.0
 >>  INFO IM Namespace Id: pds
->>  INFO IM Label Version Id: 1.21
->>  INFO Date: Sun Oct 31 00:04:12 UTC 2021
+>>  INFO IM Label Version Id: 1.20
+>>  INFO Date: Sun Oct 31 20:45:38 UTC 2021
 >>  INFO PARENT_DIR: /tmp/lddtool-13.1.0
 >>  INFO SCRIPT_DIR: /tmp/lddtool-13.1.0/bin
 >>  INFO LIB_DIR: /tmp/lddtool-13.1.0/lib
+>>  WARNING Class omitted from build - Class Identifier:0001_NASA_PDS_1.pds.Schematron_Rule
+>>  WARNING Class omitted from build - Class Identifier:0001_NASA_PDS_1.pds.Schematron_Assert
 
 >>> ERROR Init:  - LDD Dictionary_Type not Found:TBD_dictionary_type  Defaulting to Discipline
 >>> ERROR Class:  - No local dictionary may define a class called Local_Internal_Reference.
@@ -19,13 +21,13 @@
 >>> WARNING Header:  - New namespace id has been specified:wave
 
  -- LDDTool Execution Summary --
-     2 warning(s)
+     4 warning(s)
      2 error(s)
      0 fatal error(s)
 
 Input:
 
-     - IM Version: 1F00
+     - IM Version: 1E00
      - PDS4 Flag: true
      - LDD Flag: true
      - IM Version: true
@@ -35,9 +37,9 @@ Input:
 
 Output:
 
-     - ./PDS4_WAVE_1F00_1000.xsd
-     - ./PDS4_WAVE_1F00_1000.sch
-     - ./PDS4_WAVE_1F00_1000.xml
-     - ./PDS4_WAVE_1F00_1000.JSON
+     - ./PDS4_WAVE_1E00_1000.xsd
+     - ./PDS4_WAVE_1E00_1000.sch
+     - ./PDS4_WAVE_1E00_1000.xml
+     - ./PDS4_WAVE_1E00_1000.JSON
 
 >>  INFO Exit(1)
